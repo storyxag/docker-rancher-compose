@@ -4,7 +4,7 @@ FROM debian:latest
 MAINTAINER Alexander Zigelski <alexander.zigelski@storyxag.com>
 
 # Define rancher compose version
-ENV RANCHER_COMPOSE_VERSION v0.12.2
+ENV RANCHER_COMPOSE_VERSION v0.12.5
 
 # Download and install rancher compose
 RUN apt-get -yqq update && \
